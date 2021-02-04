@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+		<script src="index.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="startscreen">
+				<img class="logo" alt="lspd" src="TEU LOGO">
+				<!--LOGO 140 X 140-->
+				<h1 style="margin-left: 350px; margin-top: 50px; font-size: 45px; font-family: 'Secular One', sans-serif;
+			    	margin: 0;
+    				position: absolute;
+					top: 50%;
+					left: 60%;
+    				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);">Formulário de Polícia </h1>
+				<button class="button" id="start">Começar</button>
+			</div>
+			<div id="info">
+				
+				<label class="label">Nome Completo</label> 
+				<!--EDIT-->
+				<input id="firstname" type="text" placeholder="Nome Sobrenome" class="input3"  required="true" name="need" ><br>
+
+				<label class="label1">Qual seu nome/tag do discord?</label>
+				<!--EDIT-->
+				<input id="lastname" type="text" placeholder="XXXX#5555" class="input3"  required="true" name="need1" ><br>
+
+				<label class="label2">Idade</label>
+				<!--EDIT-->
+				<input id="age" type="number" placeholder="20" class="input3"  required="true" name="need2" ><br>
+
+				<img class="logo12" alt="lspd" src="TEU LOGO DE RECRUTAMENTO">
+				<!--LOGO 300 X 80-->
+
+				<label class="label22">Idade RL</label>
+				<!--EDIT-->
+				<input id="ager" type="number" placeholder="20" class="input22"  required="true" name="need3" ><br>
+
+				<label class="label22t">Telefone</label>
+				<!--EDIT-->
+				<input id="telef" type="text" placeholder="xxx-xxx" class="input22t"  required="true" name="need" ><br>
+				
+				<label class="label3">Porque deseja entrar na Polícia?</label>
+				<!--EDIT-->
+				<input id="why" type="text" type="textarea" placeholder="Responda aqui" class="why"  required="true"  name="need4"><br>
+
+				<label class="label5">Como o policial deve abordar à um civil que cometeu um crime?</label>
+				<!--EDIT-->
+				<input id="why2" type="text" type="textarea" placeholder="Responda aqui" class="why2"  required="true"  name="need5"><br>
+
+				<label class="label6">Quando deve ser utilizado o Código de Rádio?</label>
+				<!--EDIT-->
+				<input id="why3" type="text" type="textarea" placeholder="Responda aqui" class="why3"  required="true"  name="need6"><br>
+
+				<label class="label7">Ao entrar no servidor para exercer sua função de policial, o que você deverá fazer?</label>
+				<!--EDIT-->
+				<input id="why4" type="text" type="textarea" placeholder="Responda aqui" class="why4"  required="true"  name="need"><br>
+
+				<label class="label8">Qual(ais) horário(s) você tem disponível para jogar?</label>
+				<!--EDIT-->
+				<input id="why5" type="text" type="textarea" placeholder="Responda aqui" class="why5"  required="true"  name="need"><br>
+
+				<label class="label9">Como podem ser iniciadas as Blitz?</label>
+				<!--EDIT-->
+				<input id="why6" type="text" type="textarea" placeholder="Responda aqui" class="why6"  required="true"  name="need"><br>
+
+				<label class="label10">Você já fez parte de uma Corporação Policial? </label>
+				<!--EDIT-->
+				<input id="why7" type="text" type="textarea" placeholder="Responda aqui" class="why7"  required="true"  name="need"><br>
+
+				<label class="label11">Você ja foi preso alguma vez?</label>
+				<!--EDIT-->
+				<input id="why8" type="text" type="textarea" placeholder="Responda aqui" class="why8"  required="true"  name="need"><br>
+
+				<label class="label12">Você tem conhecimento no código Q? Se sim mencione 3 tipos de códigos Q, eo que que eles significam.?</label>
+				<!--EDIT-->
+				<input id="why9" type="text" type="textarea" placeholder="Responda aqui" class="why9"  required="true"  name="need"><br>
+
+				<label class="label13">Quais devem ser os valores de um policial?</label>
+				<!--EDIT-->
+				<input id="why10" type="text" type="textarea" placeholder="Responda aqui" class="why10"  required="true"  name="need"><br>
+				
+				<label class="label14">Foto, obrigatório ser nos formatos PNG ou JPG/JPEG</label>
+				<input id="foto" placeholder="https://link/foto.png" class="foto"><br>
+
+				<strong class="warn"  id="warn">Preencha todos os campos!</strong>
+				<strong class="warn2"  id="warn2">Obrigatório o preenchimento!</strong>
+				<strong class="warn3"  id="warn3">Você é muito novo para o cargo!</strong>
+				<button class="sumbit" id="sumbit">Enviar</button>
+			</div>
+			<div id="done">
+				<strong class="thanks">Obrigado pela candidatura!</strong>
+				<button class="exit" id="exit">Sair</button>
+			</div>
+		</div>
+	</body>
+</html>
