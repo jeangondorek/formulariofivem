@@ -8,3 +8,7 @@ Script VRP, VRPEX.
 
 ![GitHub language count](https://img.shields.io/github/languages/count/jeangondorek/FormularioFivem?color=blue&style=for-the-badge)
 ![GitHub language top](https://img.shields.io/github/languages/top/jeangondorek/FormularioFivem?style=for-the-badge)
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeangondorek&exclude_repo=jeangondorek,Concessionaria-fivem,hudfivem&theme=onedark)](https://github.com/jeangondorek/jeangondorek)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jeangondorek&repo=FormularioFivem&theme=onedark)](https://github.com/jeangondorek/jeangondorek)
